@@ -4,11 +4,19 @@
 
 <div class="movie-card">
 	<a href={"/movie/" + movie.id}>
-		<img
-			src="https://image.tmdb.org/t/p/w200{movie.poster_path}"
-			class="card-img-top"
-			alt={movie.title}
-		/>
+		{#if movie.poster_path != null}
+			<img
+				src="https://image.tmdb.org/t/p/w200{movie.poster_path}"
+				class="card-img-top"
+				alt={movie.title}
+			/>
+		{:else}
+			<img
+				src="https://image.tmdb.org/t/p/w200{movie.backdrop_path}"
+				class="card-img-top"
+				alt={movie.title}
+			/>
+		{/if}
 	</a>
 	<div class="movie-description">
 		<h3>{movie.title}</h3>

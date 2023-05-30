@@ -1,12 +1,17 @@
-<div class="container">
+<script>
+	import SearchMovie from "./SearchMovie.svelte"
+</script>
+
+<div class="containerr">
 	<nav>
 		<a href="/">Popular Movies</a>
 	</nav>
+	<SearchMovie />
 </div>
 
 <style>
 	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-	.container {
+	.containerr {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;

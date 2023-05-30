@@ -1,10 +1,12 @@
 <script>
 	import MovieCard from "./MovieCard.svelte"
+	import SearchMovie from "./SearchMovie.svelte"
 	export let movies
 	// console.log(movies[0])
 </script>
 
 <h1>Popular Movies</h1>
+<SearchMovie />
 <div class="popular-movies">
 	{#each movies as movie}
 		<!-- <li>{movie.title}</li> -->
