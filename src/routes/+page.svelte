@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	export let data
+	let movies = data.movies
+	import PopularMovies from "../components/PopularMovies.svelte"
+	// console.log(movies)
+</script>
+
+<section>
+	<PopularMovies {movies} />
+</section>
