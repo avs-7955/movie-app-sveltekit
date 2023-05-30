@@ -1,7 +1,7 @@
 <script>
 	export let data
 	let movie_detail = data.movie
-	console.log(movie_detail)
+	// console.log(movie_detail)
 </script>
 
 <div class="container">
@@ -26,11 +26,9 @@
 </div>
 
 <style>
-	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 	h1,
 	h4,
 	p {
-		font-family: "Poppins", sans-serif;
 		font-size: 0.9rem;
 	}
 	h1 {

@@ -22,6 +22,11 @@
 		height: 35vh;
 		object-fit: cover;
 		border-radius: 10px;
+		transition: width 1s;
+		transition-timing-function: ease-in;
+	}
+	img:hover {
+		width: 110%;
 	}
 	h3 {
 		font-size: 0.9rem;
@@ -36,6 +41,6 @@
 	}
 	.movie-card {
 		padding: 10px;
-		justify-content: space-around;
+		justify-content: center;
 	}
 </style>
