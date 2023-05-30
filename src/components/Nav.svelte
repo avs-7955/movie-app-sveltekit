@@ -34,7 +34,7 @@
 		bottom: -4px;
 		width: 100%;
 		height: 2px;
-		background-color: #fff;
+		background-color: #000;
 		transform: scaleX(0);
 		transform-origin: right;
 		transition: transform 0.4s ease-in-out;
