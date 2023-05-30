@@ -16,7 +16,6 @@
 		alt=""
 		class="background-poster"
 	/>
-	<div class="overlay" />
 	<Nav />
 	<slot />
 </div>
