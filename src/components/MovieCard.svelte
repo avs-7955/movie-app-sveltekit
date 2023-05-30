@@ -4,7 +4,7 @@
 </script>
 
 <div class="movie-card" in:slide out:fade>
-	<a href={"/movie/" + movie.id}>
+	<a data-sveltekit-noscroll href={"/movie/" + movie.id}>
 		{#if movie.poster_path != null}
 			<img
 				src="https://image.tmdb.org/t/p/w200{movie.poster_path}"
