@@ -9,7 +9,7 @@ This app shows all the popular movie, and details of the particular movie. The a
  TechStack</h1>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/svelte-kit.svg" alt="SvelteKit" width="80" height="80"/>
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/svelte-kit.svg" alt="SvelteKit" height="80"/>
 </div>
 
 ## Run Locally
