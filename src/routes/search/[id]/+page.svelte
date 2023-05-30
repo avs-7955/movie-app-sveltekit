@@ -1,15 +1,14 @@
 <script>
 	import MovieCard from "../../../components/MovieCard.svelte"
-	import SearchMovie from "../../../components/SearchMovie.svelte"
 	import Nav from "../../../components/Nav.svelte"
 	export let data
 	let searched_movies = data.searched_movies
+	import { slide, fade, scale } from "svelte/transition"
 </script>
 
 <Nav />
 <h1>Results</h1>
-<!-- <SearchMovie /> -->
-<div class="searched-movies">
+<div class="searched-movies" in:fade out:fade>
 	{#each searched_movies as movie}
 		<MovieCard {movie} />
 	{/each}

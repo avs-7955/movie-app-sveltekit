@@ -1,8 +1,9 @@
 <script>
+	import { slide, fade, scale } from "svelte/transition"
 	export let movie
 </script>
 
-<div class="movie-card">
+<div class="movie-card" in:slide out:fade>
 	<a href={"/movie/" + movie.id}>
 		{#if movie.poster_path != null}
 			<img

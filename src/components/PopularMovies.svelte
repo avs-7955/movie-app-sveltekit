@@ -1,13 +1,14 @@
 <script>
 	import MovieCard from "./MovieCard.svelte"
 	import SearchMovie from "./SearchMovie.svelte"
+	import { slide, fade, scale } from "svelte/transition"
 	export let movies
 	// console.log(movies[0])
 </script>
 
 <h1>Popular Movies</h1>
 <SearchMovie />
-<div class="popular-movies">
+<div class="popular-movies" in:scale>
 	{#each movies as movie}
 		<!-- <li>{movie.title}</li> -->
 		<MovieCard {movie} />
