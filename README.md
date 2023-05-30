@@ -1,6 +1,6 @@
-# Movies App using SvelteKit
+# Popular Movies Website using SvelteKit
 
-This app shows all the popular movie, and details of the particular movie. The app also has the search functionality to search for movies and show the results of all the related movies.
+This website shows all the popular movie fetched from the TMDB database.The website can also show movie details of particular movies. It also has the search functionality to search for movies and show the results of all the related movies.
 <br>
 
 <h1 align="center">
@@ -10,6 +10,23 @@ This app shows all the popular movie, and details of the particular movie. The a
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/svelte-kit.svg" alt="SvelteKit" height="80"/>
+</div>
+
+## App Screenshots
+
+All the latest popular movies are shown in the homepage.
+<br>
+<br>
+
+<div align="center">
+    <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/Web_Development/movies_app/screen_1_1pI2JY5x2.png?updatedAt=1685465701077" alt="Homepage of the website"/>
+</div>
+<br>
+Movie details page.
+<br>
+<br>
+<div align="center">
+  <img align="center" src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/Web_Development/movies_app/screen_2_gptithctLC.png?updatedAt=1685465701082" alt="The page where the movie details are shown."/>
 </div>
 
 ## Run Locally
