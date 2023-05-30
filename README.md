@@ -14,7 +14,7 @@ This website shows all the popular movie fetched from the TMDB database.The webs
 
 ## App Screenshots
 
-All the latest popular movies are shown in the homepage.
+All the latest popular movies are shown in the homepage
 <br>
 <br>
 
@@ -22,7 +22,7 @@ All the latest popular movies are shown in the homepage.
     <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/Web_Development/movies_app/screen_1_1pI2JY5x2.png?updatedAt=1685465701077" alt="Homepage of the website"/>
 </div>
 <br>
-Movie details page.
+The wabpage showing all the movie details
 <br>
 <br>
 <div align="center">
