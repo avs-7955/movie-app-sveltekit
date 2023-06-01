@@ -29,6 +29,7 @@ jobs:
             - name: build
               env:
                   BASE_PATH: "/movie-app-sveltekit"
+                  TMDB_API_KEY: a2c06ece95432c6bc1d2b2602124451c
               run: |
                   npm run build
                   touch build/.nojekyll
