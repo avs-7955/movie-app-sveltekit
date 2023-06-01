@@ -1,10 +1,11 @@
 <script>
 	import SearchMovie from "./SearchMovie.svelte"
+	import { base } from "$app/paths"
 </script>
 
 <div class="containerr">
 	<nav>
-		<a href="/">Popular Movies</a>
+		<a href="{base}/">Popular Movies</a>
 	</nav>
 	<SearchMovie />
 </div>

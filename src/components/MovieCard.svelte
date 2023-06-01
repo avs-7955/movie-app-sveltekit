@@ -1,10 +1,11 @@
 <script>
 	import { slide, fade, scale } from "svelte/transition"
+	import { base } from "$app/paths"
 	export let movie
 </script>
 
 <div class="movie-card" in:slide out:fade>
-	<a data-sveltekit-noscroll href={"/movie/" + movie.id}>
+	<a data-sveltekit-noscroll href={{ base } + "/movie/" + movie.id}>
 		{#if movie.poster_path != null}
 			<img
 				src="https://image.tmdb.org/t/p/w200{movie.poster_path}"

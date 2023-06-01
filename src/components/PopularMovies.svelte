@@ -1,7 +1,7 @@
 <script>
 	import MovieCard from "./MovieCard.svelte"
 	import SearchMovie from "./SearchMovie.svelte"
-	import { slide, fade, scale } from "svelte/transition"
+	import { scale } from "svelte/transition"
 	export let movies
 	// console.log(movies[0])
 </script>

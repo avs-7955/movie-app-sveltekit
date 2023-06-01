@@ -1,6 +1,7 @@
 <script>
 	// import { goto } from "$app/navigation"
 	let input_value = ""
+	import { base } from "$app/paths"
 	// const goto: (`/search/{input_value}`)
 
 	// const submitFunction = () => {
@@ -24,7 +25,7 @@
 			placeholder="Search Movie"
 			bind:value={input_value}
 		/>
-		<a href="/search/{input_value}" class="input-group-text">
+		<a href="{base}/search/{input_value}" class="input-group-text">
 			<span class="material-symbols-outlined"> search </span>
 		</a>
 	</div>
